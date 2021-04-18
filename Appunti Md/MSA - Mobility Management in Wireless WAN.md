@@ -76,7 +76,7 @@
         - **Reattivo:** quando esco dalla LA
         - **Pro-attivo:** prevedo il transito all'esterno della LA, tenendo conto degli spostamenti del nodo mobile, cercando di seguirlo nei suoi spostamenti, in modo da ridurre la necessità di aggiornare la sua posizione. Soluzione inizialmente esplorata in maniera teorica, ma riesumato a partire dalla quarta generazione
 
-#### **Mobility Management sistemi 2.5/3G*
+#### **Mobility Management sistemi 2.5/3G**
 
 - Reti il cui il traffico dati assume un ruolo importante, se non prevalente
 - **Routing area:** ripartizione delle celle che fanno capo ad uno stesso SGSN (MSC in 2G)
@@ -103,7 +103,7 @@
   - Altrimenti determina la BTS contattando tutte le BTS
   - Se il nodo non è presente nella routing area, viene indicato come non raggiungibile
 
-#### **Mobility Management >= 4G*
+#### **Mobility Management >= 4G**
 
 - Eliminato un livello della gerarichia, in quanto ogni antenna parla direttamente con l'SGW corrispondente
 - **Routing dei pacchetti:** antenna parla direttamente con la parte core della rete, SGW. Ognuno degli SGW si connette, tramite il backbone gestito usando protocolli di tipo IP, al agateway PGW che funge da punto di accesso con la rete esterna
